@@ -1,0 +1,12 @@
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.exe.config
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.csprojResolveAssemblyReference.cache
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.exe
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.pdb
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.exe
+C:\Users\flavia.ferreira\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.pdb
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.exe.config
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.exe
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.pdb
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.exe
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.pdb
+C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.csprojResolveAssemblyReference.cache
