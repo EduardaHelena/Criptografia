@@ -10,3 +10,9 @@ C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.pdb
 C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.exe
 C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\bin\Debug\Criptografia.pdb
 C:\Users\Oswaldo\Desktop\Criptografia\Criptografia\obj\Debug\Criptografia.csprojResolveAssemblyReference.cache
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\bin\Debug\Criptografia.exe.config
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\obj\Debug\Criptografia.exe
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\obj\Debug\Criptografia.pdb
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\obj\Debug\Criptografia.csprojResolveAssemblyReference.cache
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\bin\Debug\Criptografia.exe
+C:\Users\Oswaldo\Documents\GitHub\Criptografia\Criptografia\bin\Debug\Criptografia.pdb

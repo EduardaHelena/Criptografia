@@ -11,11 +11,10 @@ namespace Criptografia
     {
         static string segredo;
         static string confirma;
+        public static List<string> senhasGuardadas = new List<string>();
+        
         static string oi;
-        
-        
-
-
+     
 
         Banana p = new Banana();
         static void Main(string[] args)
@@ -61,6 +60,11 @@ namespace Criptografia
 
                 segredo = p.getMD5Hash(p.senha);
                 Console.WriteLine("Sua senha cripotografada:" + segredo);
+                senhasGuardadas.Add(segredo);
+                Console.ReadKey();
+
+                Console.WriteLine("Guardando Senha ...");
+                Console.ReadKey();
                 
                 Console.WriteLine();
                 Console.WriteLine("Confirme sua senha");
@@ -80,10 +84,10 @@ namespace Criptografia
                }
              
             
-                public static bool letras ()
+                public static void letras ()
             {
                
-                bool codigo = (String.Compare(segredo, confirma, true) == 0);
+                /*bool codigo = (String.Compare(segredo, confirma, true) == 0);
                 if (codigo == true)
                 {
                     
@@ -92,7 +96,18 @@ namespace Criptografia
                     
                 }
                 
-                return codigo; 
+                return codigo; */
+
+                if (senhasGuardadas.Contains(confirma))
+                {
+                    Console.WriteLine("Você acabou de logar com sucesso");
+                    Console.ReadKey();
+                }
+                else
+                {
+                    Console.WriteLine("Você não logou");
+                    Console.ReadKey();
+                }
                 
              
             }  
