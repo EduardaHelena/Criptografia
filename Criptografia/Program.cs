@@ -11,7 +11,11 @@ namespace Criptografia
     {
         static string segredo;
         static string confirma;
-        static bool codigo;
+        static string oi;
+        
+        
+
+
 
         Banana p = new Banana();
         static void Main(string[] args)
@@ -39,12 +43,6 @@ namespace Criptografia
                         Environment.Exit(2);
                    break;
 
-                   case ConsoleKey.P:
-                        letras();
-                        
-                   break;
-
-
                    default:
                        Console.WriteLine("Erro");
                        Console.ReadKey(); 
@@ -62,16 +60,22 @@ namespace Criptografia
                 p.senha = Console.ReadLine();
 
                 segredo = p.getMD5Hash(p.senha);
-                Console.WriteLine(segredo);
-
+                Console.WriteLine("Sua senha cripotografada:" + segredo);
+                
+                Console.WriteLine();
                 Console.WriteLine("Confirme sua senha");
                 p.senha = Console.ReadLine();
-
                 confirma = p.getMD5Hash(p.senha);
-                Console.WriteLine(confirma);
-
+                Console.WriteLine("Sua confirmação cripotografada:" + confirma);
+                Console.WriteLine();
                 Console.WriteLine("Aperte P, para logar");
- 
+
+                oi = Console.ReadLine();
+
+                if(oi == "p")
+                {
+                    letras(); 
+                }
 
                }
              
@@ -82,7 +86,8 @@ namespace Criptografia
                 bool codigo = (String.Compare(segredo, confirma, true) == 0);
                 if (codigo == true)
                 {
-                    Console.WriteLine("Entre");
+                    
+                    Console.WriteLine("Sua senha está correta! Entre");
                     Console.ReadKey();
                     
                 }
